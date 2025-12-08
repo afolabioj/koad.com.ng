@@ -1,0 +1,50 @@
+[09-Jul-2025 15:24:39 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home2/dealttec/public_html/bloomatech.com.ng/update_pass.php on line 17
+[09-Jul-2025 17:35:42 UTC] PHP Warning:  require_once(/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php): Failed to open stream: No such file or directory in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 17:35:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php' (include_path='/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/:/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/core:.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php:59
+Stack trace:
+#0 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(44): BEW->__construct()
+#1 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(304): BEW::instance()
+#2 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home2/dealttec/public_html/bloomatech.com.ng/wp-settings.php(705): do_action('after_setup_the...')
+#6 /home2/dealttec/public_html/bloomatech.com.ng/wp-config.php(102): require_once('/home2/dealttec...')
+#7 /home2/dealttec/public_html/bloomatech.com.ng/wp-load.php(50): require_once('/home2/dealttec...')
+#8 /home2/dealttec/public_html/bloomatech.com.ng/wp-blog-header.php(13): require_once('/home2/dealttec...')
+#9 /home2/dealttec/public_html/bloomatech.com.ng/index.php(17): require('/home2/dealttec...')
+#10 {main}
+  thrown in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 17:44:09 UTC] PHP Warning:  require_once(/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php): Failed to open stream: No such file or directory in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 17:44:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php' (include_path='/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/:/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/core:.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php:59
+Stack trace:
+#0 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(44): BEW->__construct()
+#1 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(304): BEW::instance()
+#2 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home2/dealttec/public_html/bloomatech.com.ng/wp-settings.php(705): do_action('after_setup_the...')
+#6 /home2/dealttec/public_html/bloomatech.com.ng/wp-config.php(102): require_once('/home2/dealttec...')
+#7 /home2/dealttec/public_html/bloomatech.com.ng/wp-load.php(50): require_once('/home2/dealttec...')
+#8 /home2/dealttec/public_html/bloomatech.com.ng/wp-blog-header.php(13): require_once('/home2/dealttec...')
+#9 /home2/dealttec/public_html/bloomatech.com.ng/index.php(17): require('/home2/dealttec...')
+#10 {main}
+  thrown in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 17:48:24 UTC] PHP Warning:  require_once(/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php): Failed to open stream: No such file or directory in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 17:48:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/includes/admin/notices/rating-notice.php' (include_path='/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/:/home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/kirki/core:.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php:59
+Stack trace:
+#0 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(44): BEW->__construct()
+#1 /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php(304): BEW::instance()
+#2 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(324): {closure}('')
+#3 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /home2/dealttec/public_html/bloomatech.com.ng/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /home2/dealttec/public_html/bloomatech.com.ng/wp-settings.php(705): do_action('after_setup_the...')
+#6 /home2/dealttec/public_html/bloomatech.com.ng/wp-config.php(102): require_once('/home2/dealttec...')
+#7 /home2/dealttec/public_html/bloomatech.com.ng/wp-load.php(50): require_once('/home2/dealttec...')
+#8 /home2/dealttec/public_html/bloomatech.com.ng/wp-blog-header.php(13): require_once('/home2/dealttec...')
+#9 /home2/dealttec/public_html/bloomatech.com.ng/index.php(17): require('/home2/dealttec...')
+#10 {main}
+  thrown in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/plugins/bosa-elementor-for-woocommerce/bosa-elementor-for-woocommerce.php on line 59
+[09-Jul-2025 20:02:24 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home2/dealttec/public_html/bloomatech.com.ng/update_pass.php on line 17
+[16-Jul-2025 14:04:21 UTC] PHP Warning:  Undefined array key "path" in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/advanced-cache.php on line 52
+[16-Jul-2025 14:04:22 UTC] PHP Warning:  Undefined array key "path" in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/advanced-cache.php on line 52
+[18-Aug-2025 12:20:23 UTC] PHP Warning:  Undefined array key "path" in /home2/dealttec/public_html/bloomatech.com.ng/wp-content/advanced-cache.php on line 52
