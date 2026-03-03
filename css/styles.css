@@ -417,7 +417,6 @@ p {
   margin-right: auto;
   max-width: 100%;
   max-height: 100%;
-
   height: auto;
   object-fit: contain;
 }
@@ -618,7 +617,7 @@ Hero
 .hero {
   background: var(--clr-primary-11);
 }
-.hero-img {
+ {
   display: none;
 }
 .hero-center {
@@ -636,7 +635,7 @@ Hero
   margin-top: 1.25rem;
 }
 @media screen and (min-width: 992px) {
-  .hero-img {
+   {
     display: block;
 
     position: relative;
@@ -645,7 +644,7 @@ Hero
     grid-template-columns: 1fr 1fr;
   }
 
-  .hero-img::before,
+  ::before,
   .about-img::before {
     content: "";
     width: 100%;
